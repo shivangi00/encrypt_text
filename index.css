@@ -1,0 +1,64 @@
+body, html{
+    padding: 0;
+    margin:0;
+  }
+  
+  html{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  
+  #main{
+    margin: 10% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .main h1{
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  .main input{
+    padding: 20px 20px;
+    border: none;
+    width: 50%;
+    align-self: center;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+  }
+  
+  .main .e-text{
+    margin: 5% auto;
+    background: none;
+    border-bottom: 2px solid white;
+    border-radius: 0;
+    color: black;
+  }
+
+  .main button{
+    margin: 0 auto;
+    padding: 20px 50px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  
+  .main button:hover {
+    cursor: pointer;
+    padding: 20px 60px;
+    transition: 0.5s padding ease-in-out;
+  }
+  
+  
+  
